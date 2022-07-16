@@ -1,0 +1,8 @@
+[2022-07-16T17:06:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-16T17:06:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+[2022-07-16T17:06:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-07-16T17:06:21.021Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 3625 ms
+[2022-07-16T17:06:22.022Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [87] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:hbasedb'
+[2022-07-16T17:06:24.024Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-16T17:06:24.024Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-16T17:06:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path '/api'

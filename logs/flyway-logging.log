@@ -1,0 +1,11 @@
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Flyway Community Edition 8.5.13 by Redgate
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] 
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] 2 SQL migrations were detected but not run because they did not follow the filename convention.
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] If this is in error, enable debug logging or 'validateMigrationNaming' to fail fast and see a list of the invalid file names.
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Database: jdbc:h2:mem:hbasedb (H2 2.1)
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [41] [WARN ] Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Creating schema "flywayschema" ...
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Creating Schema History table "flywayschema"."flyway_schema_history" ...
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Current version of schema "flywayschema": null
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Schema "flywayschema" is up to date. No migration necessary.

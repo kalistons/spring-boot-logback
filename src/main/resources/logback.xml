@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<configuration>
+    <property name="APP_LOG_ROOT" value="logs"/>
+    <appender name = "STDOUT" class = "ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name = "FILE" class = "ch.qos.logback.core.FileAppender">
+        <File>${APP_LOG_ROOT}/logging.log</File>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name = "SPRING" class = "ch.qos.logback.core.FileAppender">
+        <File>${APP_LOG_ROOT}/spring-framework-logging.log</File>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name = "HIBERNATE" class = "ch.qos.logback.core.FileAppender">
+        <File>${APP_LOG_ROOT}/hibernate-logging.log</File>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name = "FLYWAY" class = "ch.qos.logback.core.FileAppender">
+        <File>${APP_LOG_ROOT}/flyway-logging.log</File>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.springframework" level="INFO">
+        <appender-ref ref="SPRING" />
+    </logger>
+
+    <logger name="org.hibernate" level="INFO">
+        <appender-ref ref="HIBERNATE" />
+    </logger>
+
+    <logger name="org.flywaydb" level="INFO">
+        <appender-ref ref="FLYWAY" />
+    </logger>
+
+    <root level = "INFO">
+        <appender-ref ref = "FILE"/>
+        <appender-ref ref = "STDOUT"/>
+    </root>
+</configuration>

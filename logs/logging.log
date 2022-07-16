@@ -1,0 +1,37 @@
+[2022-07-16T17:06:16.016Z] [br.com.springframe.logback.LogbackApplication] [main] [12] [INFO ] this is a info message
+[2022-07-16T17:06:16.016Z] [br.com.springframe.logback.LogbackApplication] [main] [13] [WARN ] this is a warn message
+[2022-07-16T17:06:16.016Z] [br.com.springframe.logback.LogbackApplication] [main] [14] [ERROR] this is a error message
+[2022-07-16T17:06:18.018Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting LogbackApplication using Java 11.0.11 on USER with PID 20152 (D:\DESENVOLVIMENTO\roadmap\logback\target\classes started by USER in D:\DESENVOLVIMENTO\roadmap\logback)
+[2022-07-16T17:06:18.018Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-07-16T17:06:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-16T17:06:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+[2022-07-16T17:06:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-07-16T17:06:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-07-16T17:06:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-07-16T17:06:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.64]
+[2022-07-16T17:06:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-07-16T17:06:21.021Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 3625 ms
+[2022-07-16T17:06:21.021Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-07-16T17:06:22.022Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-07-16T17:06:22.022Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [87] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:hbasedb'
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Flyway Community Edition 8.5.13 by Redgate
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] 
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] 2 SQL migrations were detected but not run because they did not follow the filename convention.
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] If this is in error, enable debug logging or 'validateMigrationNaming' to fail fast and see a list of the invalid file names.
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Database: jdbc:h2:mem:hbasedb (H2 2.1)
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [41] [WARN ] Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Creating schema "flywayschema" ...
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Creating Schema History table "flywayschema"."flyway_schema_history" ...
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Current version of schema "flywayschema": null
+[2022-07-16T17:06:22.022Z] [org.flywaydb.core.internal.logging.slf4j.Slf4jLog] [main] [37] [INFO ] Schema "flywayschema" is up to date. No migration necessary.
+[2022-07-16T17:06:23.023Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-16T17:06:23.023Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.9.Final
+[2022-07-16T17:06:23.023Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-16T17:06:24.024Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-07-16T17:06:24.024Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-16T17:06:24.024Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-16T17:06:24.024Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-16T17:06:25.025Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-07-16T17:06:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path '/api'
+[2022-07-16T17:06:25.025Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started LogbackApplication in 8.256 seconds (JVM running for 9.521)
