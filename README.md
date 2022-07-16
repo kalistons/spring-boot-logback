@@ -4,6 +4,6 @@
 
 <div align="center">
   <a>
-    <img src="image/logo.jpg" alt="Logo" width="270" height="120">
+    <img src="image/logo.png" alt="Logo" width="450" height="250">
   </a>
 </div>
